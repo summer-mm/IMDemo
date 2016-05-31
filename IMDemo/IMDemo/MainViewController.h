@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  IMDemo
 //
-//  Created by iMac on 16/5/26.
+//  Created by iMac on 16/5/31.
 //  Copyright © 2016年 carlos_mm. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

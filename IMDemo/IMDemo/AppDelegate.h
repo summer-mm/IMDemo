@@ -13,5 +13,11 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
+
+-(BOOL)loginIM;
+-(BOOL)logOutIM;
+
+
+
 @end
 

@@ -1,0 +1,24 @@
+//
+//  pchFile.pch
+//  IMDemo
+//
+//  Created by iMac on 16/5/31.
+//  Copyright © 2016年 carlos_mm. All rights reserved.
+//
+
+#ifndef pchFile_pch
+#define pchFile_pch
+
+#import "AppDelegate.h"
+
+
+
+#define USERID @"USERID"
+#define PASSWORD @"PASSWORD"
+#define SERVERID @"SERVERID"
+
+
+
+
+
+#endif /* pchFile_pch */

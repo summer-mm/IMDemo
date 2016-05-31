@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		882AFB421CF6D71400824D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AFB411CF6D71400824D92 /* main.m */; };
 		882AFB451CF6D71400824D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AFB441CF6D71400824D92 /* AppDelegate.m */; };
-		882AFB481CF6D71400824D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AFB471CF6D71400824D92 /* ViewController.m */; };
 		882AFB4B1CF6D71400824D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882AFB491CF6D71400824D92 /* Main.storyboard */; };
 		882AFB4D1CF6D71400824D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882AFB4C1CF6D71400824D92 /* Assets.xcassets */; };
 		882AFB501CF6D71400824D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882AFB4E1CF6D71400824D92 /* LaunchScreen.storyboard */; };
@@ -47,6 +46,12 @@
 		882AFBDC1CF6D88A00824D92 /* XMPPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AFBC11CF6D88A00824D92 /* XMPPTimer.m */; };
 		882AFBE01CF6D92100824D92 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882AFBDE1CF6D92100824D92 /* libidn.a */; };
 		882AFBE21CF6D9AC00824D92 /* libresolv.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 882AFBE11CF6D9AC00824D92 /* libresolv.9.dylib */; };
+		889302181CFD88210004DD56 /* XMPPmanger.m in Sources */ = {isa = PBXBuildFile; fileRef = 889302171CFD88210004DD56 /* XMPPmanger.m */; };
+		8893021B1CFD90130004DD56 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893021A1CFD90130004DD56 /* RegisterViewController.m */; };
+		8893021E1CFD91A50004DD56 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8893021D1CFD91A50004DD56 /* MainViewController.m */; };
+		8894A8911CFD6797009AAAA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8894A8901CFD6797009AAAA1 /* Images.xcassets */; };
+		8894A8981CFD779E009AAAA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8894A8961CFD779E009AAAA1 /* LoginViewController.m */; };
+		8894A89F1CFD8341009AAAA1 /* PublishHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8894A89E1CFD8341009AAAA1 /* PublishHandle.m */; };
 		EE647F4DAF1E3036F9463918 /* libPods-IMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 774F505107CE176874703417 /* libPods-IMDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -75,8 +80,6 @@
 		882AFB411CF6D71400824D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		882AFB431CF6D71400824D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		882AFB441CF6D71400824D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		882AFB461CF6D71400824D92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		882AFB471CF6D71400824D92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		882AFB4A1CF6D71400824D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		882AFB4C1CF6D71400824D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882AFB4F1CF6D71400824D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,6 +156,18 @@
 		882AFBDE1CF6D92100824D92 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		882AFBDF1CF6D92100824D92 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		882AFBE11CF6D9AC00824D92 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = ../../../../../usr/lib/libresolv.9.dylib; sourceTree = "<group>"; };
+		889302161CFD88210004DD56 /* XMPPmanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPmanger.h; sourceTree = "<group>"; };
+		889302171CFD88210004DD56 /* XMPPmanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPmanger.m; sourceTree = "<group>"; };
+		889302191CFD90130004DD56 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		8893021A1CFD90130004DD56 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		8893021C1CFD91A50004DD56 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8893021D1CFD91A50004DD56 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8894A8901CFD6797009AAAA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8894A8951CFD779E009AAAA1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8894A8961CFD779E009AAAA1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8894A89C1CFD81F4009AAAA1 /* pchFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pchFile.pch; sourceTree = "<group>"; };
+		8894A89D1CFD8341009AAAA1 /* PublishHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishHandle.h; sourceTree = "<group>"; };
+		8894A89E1CFD8341009AAAA1 /* PublishHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,12 +241,22 @@
 			children = (
 				882AFB431CF6D71400824D92 /* AppDelegate.h */,
 				882AFB441CF6D71400824D92 /* AppDelegate.m */,
-				882AFB461CF6D71400824D92 /* ViewController.h */,
-				882AFB471CF6D71400824D92 /* ViewController.m */,
+				8894A8951CFD779E009AAAA1 /* LoginViewController.h */,
+				8894A8961CFD779E009AAAA1 /* LoginViewController.m */,
+				889302191CFD90130004DD56 /* RegisterViewController.h */,
+				8893021A1CFD90130004DD56 /* RegisterViewController.m */,
+				8893021C1CFD91A50004DD56 /* MainViewController.h */,
+				8893021D1CFD91A50004DD56 /* MainViewController.m */,
+				8894A89D1CFD8341009AAAA1 /* PublishHandle.h */,
+				8894A89E1CFD8341009AAAA1 /* PublishHandle.m */,
+				889302161CFD88210004DD56 /* XMPPmanger.h */,
+				889302171CFD88210004DD56 /* XMPPmanger.m */,
 				882AFB491CF6D71400824D92 /* Main.storyboard */,
+				8894A89C1CFD81F4009AAAA1 /* pchFile.pch */,
 				882AFB4C1CF6D71400824D92 /* Assets.xcassets */,
 				882AFB4E1CF6D71400824D92 /* LaunchScreen.storyboard */,
 				882AFB511CF6D71400824D92 /* Info.plist */,
+				8894A8901CFD6797009AAAA1 /* Images.xcassets */,
 				882AFB401CF6D71400824D92 /* Supporting Files */,
 			);
 			path = IMDemo;
@@ -555,6 +580,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				882AFB501CF6D71400824D92 /* LaunchScreen.storyboard in Resources */,
+				8894A8911CFD6797009AAAA1 /* Images.xcassets in Resources */,
 				882AFB4D1CF6D71400824D92 /* Assets.xcassets in Resources */,
 				882AFB4B1CF6D71400824D92 /* Main.storyboard in Resources */,
 			);
@@ -634,14 +660,16 @@
 				882AFBC41CF6D88A00824D92 /* XMPPDeprecatedPlainAuthentication.m in Sources */,
 				882AFBDA1CF6D88A00824D92 /* XMPPSRVResolver.m in Sources */,
 				882AFBD21CF6D88A00824D92 /* XMPPModule.m in Sources */,
-				882AFB481CF6D71400824D92 /* ViewController.m in Sources */,
 				882AFBCB1CF6D88A00824D92 /* NSNumber+XMPP.m in Sources */,
+				889302181CFD88210004DD56 /* XMPPmanger.m in Sources */,
+				8893021E1CFD91A50004DD56 /* MainViewController.m in Sources */,
 				882AFBD41CF6D88A00824D92 /* XMPPPresence.m in Sources */,
 				882AFB451CF6D71400824D92 /* AppDelegate.m in Sources */,
 				882AFBD61CF6D88A00824D92 /* DDList.m in Sources */,
 				882AFBC91CF6D88A00824D92 /* XMPPXOAuth2Google.m in Sources */,
 				882AFBC31CF6D88A00824D92 /* XMPPDeprecatedDigestAuthentication.m in Sources */,
 				882AFBCD1CF6D88A00824D92 /* XMPPConstants.m in Sources */,
+				8894A89F1CFD8341009AAAA1 /* PublishHandle.m in Sources */,
 				882AFBCE1CF6D88A00824D92 /* XMPPElement.m in Sources */,
 				882AFBD81CF6D88A00824D92 /* RFImageToDataTransformer.m in Sources */,
 				882AFBD91CF6D88A00824D92 /* XMPPIDTracker.m in Sources */,
@@ -650,6 +678,7 @@
 				882AFBCF1CF6D88A00824D92 /* XMPPIQ.m in Sources */,
 				882AFBD51CF6D88A00824D92 /* XMPPStream.m in Sources */,
 				882AFBDB1CF6D88A00824D92 /* XMPPStringPrep.m in Sources */,
+				8893021B1CFD90130004DD56 /* RegisterViewController.m in Sources */,
 				882AFBCC1CF6D88A00824D92 /* NSXMLElement+XMPP.m in Sources */,
 				882AFBCA1CF6D88A00824D92 /* NSData+XMPP.m in Sources */,
 				882AFBD31CF6D88A00824D92 /* XMPPParser.m in Sources */,
@@ -659,6 +688,7 @@
 				882AFBC71CF6D88A00824D92 /* XMPPSCRAMSHA1Authentication.m in Sources */,
 				882AFBD01CF6D88A00824D92 /* XMPPJID.m in Sources */,
 				882AFB421CF6D71400824D92 /* main.m in Sources */,
+				8894A8981CFD779E009AAAA1 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,6 +830,8 @@
 			baseConfigurationReference = 297EAE4E8E8C48234A6FF90B /* Pods-IMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IMDemo/pchFile.pch";
 				INFOPLIST_FILE = IMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -816,6 +848,8 @@
 			baseConfigurationReference = 08EEDA28C6B6BD14EB4ACE6F /* Pods-IMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IMDemo/pchFile.pch";
 				INFOPLIST_FILE = IMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
